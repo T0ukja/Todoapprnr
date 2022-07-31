@@ -33,7 +33,7 @@ const UpdateModal=(props)=>{
         </View>
     
         <View style={styles.inputstyle}>
-        <Text style = {{width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17}}>
+        <Text style = {{width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17,color:'black'}}>
           Todo
         </Text>
 
@@ -45,7 +45,7 @@ const UpdateModal=(props)=>{
     
         </View>
         <View  style={styles.inputstyle}>
-        <Text style = {{width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17}}>
+        <Text style = {{width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17,color:'black'}}>
           Datetime
         </Text>
         <TextInput 

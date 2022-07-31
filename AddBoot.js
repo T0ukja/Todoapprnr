@@ -27,23 +27,25 @@ const AddBoot = props => {
   return (
     <Modal visible={props.modalAVisible}>
       <View style={styles.inputstyle}>
-      <Text style = {{width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17}}>
+      <Text style = {{color:'black',width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17}}>
           Todo
         </Text>
         <TextInput
           style={styles.textinput}
+          
           placeholder="Todo"
           onChangeText={TodoHandler}
           value={Todo}
         />
  </View>
  <View style={styles.inputstyle}>
- <Text style = {{width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17}}>
+ <Text style = {{color:'black',width: '20%', textAlign: 'center', textAlignVertical:'center', fontSize: 17}}>
           Datetime
         </Text>
         <TextInput
           style={styles.textinput}
           placeholder="Datetime"
+  
           onChangeText={DatetimeHandler}
           value={UpdateDate}
         />
@@ -85,6 +87,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightblue',
     height: 40,
     width: '50%',
+    color:'black',
     borderColor: 'black',
     borderWidth: 2,
   },

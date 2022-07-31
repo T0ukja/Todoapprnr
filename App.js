@@ -208,8 +208,8 @@ const App = () => {
                 padding: 9,
                 backgroundColor: 'white',
               }}>
-              <Text>todo : {item.todotask}</Text>
-              <Text>date : {item.date}</Text>
+              <Text style={{color: 'black'}}>Todo : {item.todotask}</Text>
+              <Text style={{color: 'black'}}>Date : {item.date}</Text>
             </View>
           </TouchableWithoutFeedback>
         </Swipeable>
@@ -258,7 +258,7 @@ const App = () => {
         setAModalVisible={setAModalVisible}
       />
             <Image source={require('./images/note.png')}
-          style={{   flex: 0.3,
+          style={{   flex: 0.7,
             aspectRatio: 0.8, 
             resizeMode: 'contain',}} resizeMode='cover'/>
       <Text
@@ -293,9 +293,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   flatliststyle: {
-    width: '80%',
+    width: '90%',
     backgroundColor: 'grey',
-    height: '50%',
+    height: '70%',
   },
 });
 
